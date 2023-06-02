@@ -56,7 +56,7 @@ const EliminarProducto = ({producto, funcionCambiar, estado}) => {
         <Text style={tw`text-black text-lg mx-2`}>
           {producto.cantidad_inicial}
         </Text>
-        <Text style={tw`text-black text-lg mx-2`}>
+        <Text style={tw`text-black text-lg mx-5`}>
           {producto.cantidad_total}
         </Text>
         <Text style={tw`text-black text-lg mx-2`}>{producto.fecha}</Text>

@@ -80,7 +80,7 @@ const MostrarProducto = ({producto, funcionCambiar, estado}) => {
         setUnfolded(!unfolded);
       }}>
       <View style={tw`flex-row`}>
-        <Text style={tw`text-black text-lg mx-2`}>
+        <Text style={tw`text-black text-lg mx-4`}>
           {producto.nombre_producto}
         </Text>
         <Text style={tw`text-black text-lg mx-2`}>
